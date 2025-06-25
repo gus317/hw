@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: 'NanumSquareNeo-Variable';
+}
+body{
+    background-color: #92CAFF;
+}
+.todolist_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todolist_title{
+    color: #ffF;
+    text-align: center;
+}
+.todolist_content{
+    height: 70px;
+    margin-bottom: 50px;
+    color: #A3A3A3;
+    display: flex;
+    justify-content: space-between;
+}
+.todolist{
+    padding-top: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todolist_content, .todolist{
+    width: 600px;
+    background-color: #fff;
+}
+textarea {
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 17px;
+}
+.todocontent{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 20px;
+    border-bottom: 2px solid #92CAFF;
+}
+input[type='checkbox']{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    accent-color:#92CAFF ;
+}
