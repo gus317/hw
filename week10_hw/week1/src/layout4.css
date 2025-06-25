@@ -1,0 +1,145 @@
+.backpage{
+    width: 1980px;
+    height: 1080px;
+    background-color: #fff;
+}
+.center{
+    width: 1280px;
+    height: 1080px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+header{
+    width: 1280px;
+    height: 100px;
+    display: flex;
+}
+
+header>.left{
+    width: 200px;
+    height: 100px;
+    background-color: #eae9ee;
+}
+header>.right{
+    width: 1080px;
+    height: 100px;
+    background-color: #c2c3d6;
+}
+
+main{
+    width: 1280px;
+    height: 880px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.maintop, .mainbottom{
+    width: 1280px;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.maintop>.left{
+    width: 250px;
+    height: 440px;
+    background-color: #e1e1f5;
+}
+
+.maintop>.right{
+    width: 1030px;
+    height: 440px;
+}
+
+.right>.righttop, .rightbottom{
+    width: 1030px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right>.righttop>.left{
+    width: 730px;
+    height: 220px;
+    background-color: #c0c0fb;
+}
+.right>.righttop>.right{
+    width: 300px;
+    height: 220px;
+    background-color: #7878d4;
+}
+.right>.rightbottom>.left{
+    width: 280px;
+    height: 220px;
+    background-color: #9999ef;
+}
+.right>.rightbottom>.right{
+    width: 750px;
+    height: 220px;
+    background-color: #cacbe4;
+}
+.mainbottom>.left{
+    width: 530px;
+    height: 440px;
+    display: flex;
+}
+.mainbottom>.left>.left{
+    width: 177px;
+    height: 440px;
+    background-color: #7878d4;
+}
+.mainbottom>.left>.middle{
+    width: 177px;
+    height: 440px;
+    background-color: #353ac2;
+}
+.mainbottom>.left>.right{
+    width: 177px;
+    height: 440px;
+    background-color: #0d1163;
+}
+.mainbottom>.right{
+    width: 750px;
+    height: 242px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainbottom>.right>.top{
+    width: 750px;
+    height: 242px;
+    background-color: #666cee;
+}
+.mainbottom>.right>.bottom{
+    width: 750px;
+    height: 242px;
+    display: flex;
+}
+.mainbottom>.right>.bottom>.left{
+    width: 373px;
+    height: 198px;
+    background-color: #7d7fa7;
+}
+.mainbottom>.right>.bottom>.right{
+    width: 378px;
+    height: 198px;
+    background-color: #4c4f8c;
+}
+footer{
+    width: 1280px;
+    height: 100px;
+    display: flex;
+}
+footer>.left{
+    width: 200px;
+    height: 100px;
+    background-color: #3a258a;
+}
+footer>.middle{
+    width: 880px;
+    height: 100px;
+    background-color: #6469cd;
+}
+footer>.right{
+    width: 200px;
+    height: 100px;
+    background-color: #3a258a;
+}
